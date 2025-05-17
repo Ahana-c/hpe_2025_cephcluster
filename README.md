@@ -103,7 +103,7 @@ This project focuses on performing **Time Series Analysis** on a Ceph cluster to
 
 ## 🏁 How to Run the App
 
-1. Install required Python packages (`requirements.txt` or see `technical setup.txt`)
+1. Install required Python packages (`requirements.txt`)
 2. Navigate to the app folder:
    ```bash
    cd "ceph eda app"
