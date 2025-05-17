@@ -1,0 +1,17 @@
+<!-- templates/prediction.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ title }}</h1>
+        <p><strong>Prediction:</strong> {{ prediction }}</p>
+        <p><strong>Accuracy:</strong> {{ accuracy }}%</p>
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>
