@@ -51,7 +51,6 @@ This project focuses on performing **Time Series Analysis** on a Ceph cluster to
 ## 🌐 Web Application Features
 
 **Folder:** [`ceph eda app`](https://github.com/Ahana-c/hpe_2025_cephcluster/tree/main/ceph%20eda%20app)  
-**Setup Instructions:** See `technical setup.txt`
 
 ### 📂 Inputs Required (CSV/Excel):
 | Column | Description |
