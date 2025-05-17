@@ -4,23 +4,26 @@ This project focuses on performing **Time Series Analysis** on a Ceph cluster to
 
 ---
 
-##  Project Structure
+## 📌 Project Structure
 
-- ** [`Time_Series_Analysis_of_Ceph_Cluster_(Recovery).ipynb`](https://github.com/Ahana-c/hpe_2025_cephcluster/blob/main/Time_Series_Analysis_of_Ceph_Cluster_(Recovery).ipynb)**  
+- **📁 [`Time_Series_Analysis_of_Ceph_Cluster_(Recovery).ipynb`](https://github.com/Ahana-c/hpe_2025_cephcluster/blob/main/Time_Series_Analysis_of_Ceph_Cluster_(Recovery).ipynb)**  
   Time series analysis and prediction of metrics affecting **Recovery Time** using Prophet model.
 
-- ** [`Time_Series_Analysis_of_Ceph_Cluster_(Replication).ipynb`](https://github.com/Ahana-c/hpe_2025_cephcluster/blob/main/Time_Series_Analysis_of_Ceph_Cluster_(Replication).ipynb)**  
+- **📁 [`Time_Series_Analysis_of_Ceph_Cluster_(Replication).ipynb`](https://github.com/Ahana-c/hpe_2025_cephcluster/blob/main/Time_Series_Analysis_of_Ceph_Cluster_(Replication).ipynb)**  
   Time series analysis and prediction of metrics affecting **Replication Rate** using Prophet model.
 
-- ** [`Evaluation_of_Cluster_Metrics_and_Prediction_Uisng_Linear_Regression.ipynb`](https://github.com/Ahana-c/hpe_2025_cephcluster/blob/main/Evaluation_of_Cluster_Metrics_and_Prediction_Uisng_Linear_Regression.ipynb)**  
+- **📁 [`Evaluation_of_Cluster_Metrics_and_Prediction_Uisng_Linear_Regression.ipynb`](https://github.com/Ahana-c/hpe_2025_cephcluster/blob/main/Evaluation_of_Cluster_Metrics_and_Prediction_Uisng_Linear_Regression.ipynb)**  
   Linear regression-based prediction on metrics collected from a self-hosted **Ceph Pacific** cluster.
 
-- ** [`ceph eda app`](https://github.com/Ahana-c/hpe_2025_cephcluster/tree/main/ceph%20eda%20app)**  
+- **📁 [`ceph eda app`](https://github.com/Ahana-c/hpe_2025_cephcluster/tree/main/ceph%20eda%20app)**  
   Web application for interactive EDA and prediction based on Ceph cluster metric data.
+
+- **📄 `technical setup.txt`**  
+  Instructions to set up and run the web application.
 
 ---
 
-##  Metrics Considered
+## 🔍 Metrics Considered
 
 ### For **Recovery Time**:
 - `OSD Recovery Time (s)` – Time taken for Object Storage Daemons to recover.
@@ -40,18 +43,19 @@ This project focuses on performing **Time Series Analysis** on a Ceph cluster to
 
 ---
 
-##  Models Used
+## 🔬 Models Used
 
 - **Prophet** for Time Series Forecasting
 - **Linear Regression** for cluster metric prediction in real-time scenarios
 
 ---
 
-##  Web Application Features
+## 🌐 Web Application Features
 
 **Folder:** [`ceph eda app`](https://github.com/Ahana-c/hpe_2025_cephcluster/tree/main/ceph%20eda%20app)  
+**Setup Instructions:** See `technical setup.txt`
 
-###  Inputs Required (CSV/Excel):
+### 📂 Inputs Required (CSV/Excel):
 | Column | Description |
 |--------|-------------|
 | `timestamp` | Time of metric capture |
@@ -66,25 +70,25 @@ This project focuses on performing **Time Series Analysis** on a Ceph cluster to
 
 ---
 
-##   App Functionality
+## ⚙️ App Functionality
 
-###  EDA (Analysis)
+### 🔍 EDA (Analysis)
 - Plot workload vs. recovery/replication time
 - Plot data type vs. recovery/replication time
 - Analyze active I/O operations, config, and object count impact on recovery
 - Plot replication factor impact on replication rate
 
-###  Recovery Time Prediction
+### 📈 Recovery Time Prediction
 - Inputs: workload, data type, I/O operations, config, object count, timestamp
 - Output: Predicted recovery time with model accuracy
 
-###  Replication Rate Prediction
+### 📈 Replication Rate Prediction
 - Inputs: workload, data type, replication factor, timestamp
 - Output: Predicted replication rate with model accuracy
 
 ---
 
-##  Key Learnings
+## 🧠 Key Learnings
 
 - Ceph metrics vary significantly across versions; Ceph Pacific's metrics were carefully selected for visual and statistical correlation.
 - Recovery time and replication rate are influenced by configuration, workload, data type, and object size.
@@ -92,7 +96,7 @@ This project focuses on performing **Time Series Analysis** on a Ceph cluster to
 
 ---
 
-##  Technologies Used
+## 📌 Technologies Used
 
 - Python, Jupyter Notebooks
 - Facebook Prophet, scikit-learn
@@ -101,7 +105,7 @@ This project focuses on performing **Time Series Analysis** on a Ceph cluster to
 
 ---
 
-##  How to Run the App
+## 🏁 How to Run the App
 
 1. Install required Python packages (`requirements.txt`)
 2. Navigate to the app folder:
