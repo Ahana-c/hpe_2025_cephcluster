@@ -1,0 +1,2015 @@
+{
+  "config": {
+    "sample_interval": 15,
+    "total_duration": 900,
+    "metrics_config": {
+      "ceph_osd_up": {
+        "method": "status_count",
+        "status_key": "up",
+        "normal_value": 1.0
+      },
+      "ceph_osd_in": {
+        "method": "status_count",
+        "status_key": "in",
+        "normal_value": 1.0
+      },
+      "ceph_osd_recovery_bytes": "sum",
+      "ceph_osd_recovery_ops": "sum",
+      "ceph_pg_backfilling": "sum",
+      "ceph_pg_degraded": "sum",
+      "ceph_pg_forced_recovery": "sum",
+      "ceph_pg_recovering": "sum",
+      "ceph_pg_recovery_unfound": "sum",
+      "ceph_pg_recovery_wait": "sum",
+      "ceph_mds_cache_recovery_started": "max_active",
+      "ceph_mds_cache_recovery_completed": "max_active",
+      "ceph_num_objects_degraded": "value",
+      "ceph_osd_flag_nobackfill": "value",
+      "ceph_cluster_total_bytes": "value",
+      "ceph_cluster_total_used_bytes": "value",
+      "ceph_health_status": "value",
+      "ceph_mon_quorum_status": "quorum_status"
+    }
+  },
+  "start_time": "2025-06-24T12:09:13.393289",
+  "samples": [
+    {
+      "timestamp": "2025-06-24T12:09:13.393382",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656873435136.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:09:28.464994",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656714514432.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:09:43.535357",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656608821248.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:09:58.599540",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662863.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656695889920.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:10:13.677568",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662856.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656829431808.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:10:28.741729",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662870.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656840679424.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:10:43.806245",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662871.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656977629184.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:10:58.871502",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662869.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657101365248.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:11:13.935522",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662870.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656978952192.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:11:28.988262",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662873.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657069023232.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:11:44.055117",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662872.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657193172992.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:11:59.119668",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662870.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657264427008.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:12:14.186498",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662869.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657038565376.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:12:29.252897",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662871.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657075048448.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:12:44.321606",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662881.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657168334848.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:12:59.387584",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662868.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657278337024.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:13:14.455158",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662869.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657067085824.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:13:29.519814",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662873.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657123913728.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:13:44.583515",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662872.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656738492416.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:13:59.650700",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662869.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656655380480.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:14:14.716212",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662869.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656778842112.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:14:29.779546",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662871.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656861233152.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:14:44.843737",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662873.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656914403328.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:14:59.911315",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662869.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657038102528.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:15:14.981762",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662869.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657152544768.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:15:30.047517",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662873.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657204625408.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:15:45.099549",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662872.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657250586624.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:16:00.167522",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662870.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657372692480.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:16:15.235555",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662836.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28657216491520.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:16:30.295694",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662839.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656963072000.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:16:45.363507",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662838.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656511979520.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:17:00.431501",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662835.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656149475328.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:17:15.490118",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662837.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28656097796096.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:17:30.557455",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662840.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28655765114880.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 2,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:17:45.615518",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662837.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28655821303808.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:18:00.687523",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3662836.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837453162.0,
+        "ceph_osd_recovery_ops": 5474271.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 834.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28655917572096.0,
+        "ceph_osd_up": {
+          "normal": 16,
+          "abnormal": 8,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:18:15.755536",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 3521160.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23228837400444.0,
+        "ceph_osd_recovery_ops": 5474165.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 803.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28653283655680.0,
+        "ceph_osd_up": {
+          "normal": 18,
+          "abnormal": 6,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": -3498.669665336763,
+        "recovery_rate_ops": -7.034769614281591
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:18:30.823528",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 1702236.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23235116996563.0,
+        "ceph_osd_recovery_ops": 5477459.0,
+        "ceph_pg_backfilling": 71.0,
+        "ceph_pg_degraded": 339.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 1.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28648922800128.0,
+        "ceph_osd_up": {
+          "normal": 23,
+          "abnormal": 1,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 416750693.72216284,
+        "recovery_rate_ops": 218.60908872263803
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:18:45.907510",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 1049153.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23249213745790.0,
+        "ceph_osd_recovery_ops": 5483852.0,
+        "ceph_pg_backfilling": 81.0,
+        "ceph_pg_degraded": 231.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28645924749312.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 934550918.1196318,
+        "recovery_rate_ops": 423.8270769615079
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:19:00.979539",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 756660.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23261639940734.0,
+        "ceph_osd_recovery_ops": 5489433.0,
+        "ceph_pg_backfilling": 69.0,
+        "ceph_pg_degraded": 172.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28644612116480.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 824454023.0117657,
+        "recovery_rate_ops": 370.2885656602704
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:19:16.055513",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 546961.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23270799325822.0,
+        "ceph_osd_recovery_ops": 5493485.0,
+        "ceph_pg_backfilling": 68.0,
+        "ceph_pg_degraded": 127.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28643649433600.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 607548479.9854391,
+        "recovery_rate_ops": 268.7720209652789
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:19:31.123530",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 362713.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23278772849278.0,
+        "ceph_osd_recovery_ops": 5497014.0,
+        "ceph_pg_backfilling": 68.0,
+        "ceph_pg_degraded": 101.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28642540646400.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 529168732.42179114,
+        "recovery_rate_ops": 234.20467338203827
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:19:46.183528",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 202862.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23285723441790.0,
+        "ceph_osd_recovery_ops": 5500089.0,
+        "ceph_pg_backfilling": 54.0,
+        "ceph_pg_degraded": 65.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28642024923136.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 461526788.5161738,
+        "recovery_rate_ops": 204.1832940482462
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:20:01.255540",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 117679.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23289859664510.0,
+        "ceph_osd_recovery_ops": 5501908.0,
+        "ceph_pg_backfilling": 37.0,
+        "ceph_pg_degraded": 43.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28641629929472.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 274430694.4553919,
+        "recovery_rate_ops": 120.6872712150176
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:20:16.323292",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 48436.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23292955880062.0,
+        "ceph_osd_recovery_ops": 5503252.0,
+        "ceph_pg_backfilling": 24.0,
+        "ceph_pg_degraded": 24.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28641453879296.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 205486229.92998558,
+        "recovery_rate_ops": 89.19711447334679
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:20:31.395517",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 8620.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294720744062.0,
+        "ceph_osd_recovery_ops": 5504027.0,
+        "ceph_pg_backfilling": 8.0,
+        "ceph_pg_degraded": 8.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28641527996416.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 1.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 117093793.38485195,
+        "recovery_rate_ops": 51.41908377827428
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:20:46.471513",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28641567428608.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 18194275.986807108,
+        "recovery_rate_ops": 7.628020065805271
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:21:01.543506",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28641698603008.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:21:16.615513",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28641815736320.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:21:31.687632",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28641962328064.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:21:46.763515",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28641681346560.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:22:01.844017",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28641852973056.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:22:16.915524",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28641970098176.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:22:31.991516",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28642167992320.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:22:47.055532",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28642125307904.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:23:02.127506",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28642284781568.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:23:17.199517",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28642418696192.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:23:32.275523",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28642610446336.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:23:47.359508",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28642370424832.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-06-24T12:24:02.419511",
+      "metrics": {
+        "ceph_mds_cache_recovery_completed": 2098.0,
+        "ceph_mds_cache_recovery_started": 2098.0,
+        "ceph_num_objects_degraded": 0.0,
+        "ceph_osd_flag_nobackfill": 0.0,
+        "ceph_osd_recovery_bytes": 23294995040894.0,
+        "ceph_osd_recovery_ops": 5504142.0,
+        "ceph_pg_backfilling": 0.0,
+        "ceph_pg_degraded": 0.0,
+        "ceph_pg_forced_recovery": 0.0,
+        "ceph_pg_recovering": 0.0,
+        "ceph_pg_recovery_unfound": 0.0,
+        "ceph_pg_recovery_wait": 0.0,
+        "ceph_cluster_total_bytes": 46089092726784.0,
+        "ceph_cluster_total_used_bytes": 28642539802624.0,
+        "ceph_osd_up": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_osd_in": {
+          "normal": 24,
+          "abnormal": 0,
+          "total": 24
+        },
+        "ceph_health_status": 0.0,
+        "ceph_mon_quorum_status": 3,
+        "recovery_rate_bps": 0.0,
+        "recovery_rate_ops": 0.0
+      }
+    }
+  ]
+}
