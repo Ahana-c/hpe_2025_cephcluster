@@ -48,11 +48,11 @@ This project focuses on performing **Time Series Analysis** on a Ceph cluster to
 
 ---
 
-## 🌐 Web Application Features
+##  Web Application Features
 
 **Folder:** [`ceph eda app`](https://github.com/Ahana-c/hpe_2025_cephcluster/tree/main/ceph%20eda%20app)  
 
-### 📂 Inputs Required (CSV/Excel):
+###  Inputs Required (CSV/Excel):
 | Column | Description |
 |--------|-------------|
 | `timestamp` | Time of metric capture |
@@ -67,25 +67,25 @@ This project focuses on performing **Time Series Analysis** on a Ceph cluster to
 
 ---
 
-## ⚙️ App Functionality
+##  App Functionality
 
-### 🔍 EDA (Analysis)
+### EDA (Analysis)
 - Plot workload vs. recovery/replication time
 - Plot data type vs. recovery/replication time
 - Analyze active I/O operations, config, and object count impact on recovery
 - Plot replication factor impact on replication rate
 
-### 📈 Recovery Time Prediction
+### Recovery Time Prediction
 - Inputs: workload, data type, I/O operations, config, object count, timestamp
 - Output: Predicted recovery time with model accuracy
 
-### 📈 Replication Rate Prediction
+###  Replication Rate Prediction
 - Inputs: workload, data type, replication factor, timestamp
 - Output: Predicted replication rate with model accuracy
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 - Ceph metrics vary significantly across versions; Ceph Pacific's metrics were carefully selected for visual and statistical correlation.
 - Recovery time and replication rate are influenced by configuration, workload, data type, and object size.
@@ -93,7 +93,7 @@ This project focuses on performing **Time Series Analysis** on a Ceph cluster to
 
 ---
 
-## 📌 Technologies Used
+## Technologies Used
 
 - Python, Jupyter Notebooks
 - Facebook Prophet, scikit-learn
@@ -102,7 +102,7 @@ This project focuses on performing **Time Series Analysis** on a Ceph cluster to
 
 ---
 
-## 🏁 How to Run the App
+## How to Run the App
 
 1. Install required Python packages (`requirements.txt`)
 2. Navigate to the app folder:
